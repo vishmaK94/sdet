@@ -1,0 +1,59 @@
+Status: PASS
+Time Taken: 561
+Size: 193
+Timestamp: Sun Feb 07 20:13:44 IST 2021
+TestStep: GET Request
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Method: GET
+StatusCode: 200
+URL: https://api.github.com/user/emails
+
+---------------- Request ---------------------------
+Authorization: [Bearer fdb9639fca0e8a1136b665ddab343d8b3939ccc3]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.2 (Java/15)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [0]
+
+GET https://api.github.com/user/emails HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Bearer fdb9639fca0e8a1136b665ddab343d8b3939ccc3
+Content-Length: 0
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.2 (Java/15)
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+X-Accepted-OAuth-Scopes: [user, user:email]
+Server: [GitHub.com]
+Access-Control-Allow-Origin: [*]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1612710506]
+Date: [Sun, 07 Feb 2021 14:43:45 GMT]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4988]
+Cache-Control: [private, max-age=60, s-maxage=60]
+ETag: [W/"f79cb96e8c00c0b957a49c77731e6eb152f65fccfc75d9af1416afdecdc51b96"]
+X-GitHub-Media-Type: [github.v3; format=json]
+x-ratelimit-used: [12]
+Content-Security-Policy: [default-src 'none']
+Vary: [Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding]
+X-RateLimit-Limit: [5000]
+#status#: [HTTP/1.1 200 OK]
+X-XSS-Protection: [1; mode=block]
+X-OAuth-Scopes: [admin:public_key, user:email]
+Content-Type: [application/json; charset=utf-8]
+X-GitHub-Request-Id: [C375:0964:2010CF:23DB3F:601FFCA1]
+
+[{"email":"vermapuday@gmail.com","primary":true,"verified":true,"visibility":"private"},{"email":"76985181+uverma94@users.noreply.github.com","primary":false,"verified":true,"visibility":null}]
